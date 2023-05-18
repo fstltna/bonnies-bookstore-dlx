@@ -1,0 +1,23 @@
+xywh     0     0    80 75
+xywh    80     0    80 75
+xywh   160     0    80 75
+
+
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+ 

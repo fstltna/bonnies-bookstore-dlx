@@ -1,0 +1,422 @@
+***************************************
+** Language File For Bonnie's Bookstore
+** All lines beginning with a double asterisk (**) are comments, and also anything that occurs after a ** on a normal line is a note to the translator
+** Special characters - please do not mangle these!
+** %1 (first parameter - i.e. File %1 not found)
+** %2 (second parameter - note, your translated string can reverse parameter order, if desirable)
+** %3 (third parameter)  
+** \n (line feed)
+** \" (quote)
+**
+** Feel free to translate the story elements (both Bonnie's story and the Fairy Tale stories) rather freely
+** (i.e. you don't have to follow the literal text for these)
+**
+** For some buttons and labels, it may be difficult to fit the corresponding translated label in the given space in the game.  
+** If you must have the font size or label spacing adjusted, please contact Phil
+**
+** Note, the English version of the game includes font sets that DO NOT HAVE ACCENTED CHARACTERS (i.e. umlauts, etc) 
+** However, there is a set of font files that fully supports these characters.  Instructions to install these fonts should have been provided
+** with the localization kit.
+**
+**
+** Note, gaps in the numbering sequence are intentional
+**
+** As of 10/31/05, the first pass at this file has approximately 286 lines and 2,456 words (excluding comments, line numbers and the like) 
+**
+***************************************
+
+   1	""	   ** This one stays blank...
+   2    "English"  ** Please replace this with the language that this file has been translated to - i.e. "Deutsch", "Francais", etc...
+   3	"OK"
+   4	"Cancel"
+   5	"Yes"
+   6	"No"
+   7    "Default"  ** (As in 'Default User')
+   
+** These next two are messages normally only seen in testing mode, (Just translate 'Assert Error' as 'Program Error')
+ 100	"Assert Error"
+ 101	"Assert error in file '%1' at line %2.\n%3\nDo you wish to stop the game and debug the error?"
+ 
+ 102    "Could not find graphics file '%1'."
+ 103    "Failure initializing graphics.\n\nError Message:  "
+
+
+** These next nine words are used as part of the tutorial and initial two puzzles
+** You can change the meaning of the words, but you CANNOT change the length of them.
+** i.e. for each of 1001 through 1006, choose a suitable 4 letter word, preferably that does not have any special characters/accents/umlauts
+** For each of 1007 through 1009, choose a 5 letter word
+** Choose these words as fairly common words that all players will easily know
+** Make sure the references in strings 1110, 1112, 1113, 1114, and 1120 refer to the corresponding word 
+1001    "Frog"
+1002	"Cake"
+1003	"Shoe"
+1004	"TALE"
+1005	"PART"
+1006	"NINE"
+1007	"CANDY"
+1008	"PAPER"
+1009	"HEART"
+
+1015    "Copyright 2005, New Crayon Games, LLC\nThis CONFIDENTIAL Beta version is provided for testers and business partners.\nPlease do NOT re-distribute it beyond approved recipients."
+1016    "Game Paused"
+
+** Bonnie's Story 
+1017    "IT'S BEEN 3 YEARS SINCE BONNIE INHERITED HER GRANDFATHER'S BOOKSTORE."
+1018	"THIS WAS NO ORDINARY BOOKSTORE.\nBONNIE'S BOOKSTORE CARRIED NOTHING BUT THE FINEST BOOKS FOR CHILDREN."	
+1019	"RUNNING A BOOKSTORE WAS FUN, BUT SOMETIMES, BONNIE DREAMED OF MAKING A BIGGER MARK ON THE WORLD."
+1020	"ONE SPRING DAY, AS BONNIE\nWAS CLEANING THE ATTIC ABOVE THE STORE..."
+1021	"WHAT’S THIS?\nHER GRANDFATHER KEPT A SMALL PAINTER'S GALLERY HIDDEN IN THE ATTIC!"
+1022	"I'LL WRITE THE TEXT AND USE MY GRANDFATHER'S PAINTINGS TO MAKE CHILDREN'S BOOKS."
+1023	"SURELY IT CAN'T BE TOO HARD TO PIECE TOGETHER A BIT OF TEXT TO ACCOMPANY THE PICTURES."
+1024	"AND SO, AFTER WRITING 12 WONDERFUL CHILDREN'S BOOKS, BONNIE DECIDES TO TAKE A WELL-DESERVED BREAK..."
+1025	"BUT THIS IS ONLY A PAUSE, NOT AN ENDING, AS BONNIE'S TALE HAS MANY EXCITING CHAPTERS AHEAD."
+
+**Stuff that appears on the Main Menu (Bonnie sitting behind cash register with store sign behind her)
+1026	"Starting Point:"   **Displayed on the 'Choose Level' dialog (for starting on a level other than the first one)
+1027	"Chapter"
+1028	"Classic Game"
+1029	"Play the game with no time pressure."	
+1030	"Action Game"
+1031	"A timed game for players with a need for speed."
+1032	"Options"
+1033	"Sound and display options, high scores and credits."
+1034	"How To Play"
+1035	"View instructions on how to play the game."
+1036	"Quit"
+1037	"Quit the game."
+1038	"[CHANGE PLAYER]"
+1039	"Enter your name to create a player profile."
+1040	"Change the current player from %1 to someone else."
+
+**The Fairy Tale Names
+1041    "The Frog Prince"
+1042    "The Prince and the Pauper",
+1043    "Hey Diddle Diddle"
+1044    "The Hare and the Tortoise"
+1045    "Gulliver's Travels"
+1046    "Thumbelina"
+1047    "The Bremen Town Musicians"
+1048    "The Ugly Duckling"
+1049    "Little Miss Muffet"
+1050    "Stone Soup"
+1051    "The Lion and the Mouse"
+1052    "Alice In Wonderland"
+
+**The Fairy Tale Story Text (4 per story, except Thumbelina and Alice in Wonderland, which have 5s
+1053	"The Princess Elspeth was out for a walk beside the lake when she spied a most peculiar sight..."
+1054	"She began to wonder about the amorous amphibian's unlikely tale..."
+1055	"Only a kiss, he claimed, would break the spell once and for all..."
+1056	"When she opened her eyes, it was no longer a frog before her..."
+1057	"\"My clothes fit you perfectly!\" said the prince. \"We simply must trade places for a while...\""
+1058	"Dressed in peasant rags, the prince soon ran afoul of the wicked town guards..."
+1059	"The court gasped as the shabby urchin held aloft the ring with the royal seal..."
+1060	"\"Let justice be done.\" said the prince, watching as the villainous guards were led away..."
+1061	"Shamus the Cat owned a fiddle and hat..."
+1062	"The cow had been jumping since noon..."
+1063	"Chester the Dog laughed like a hog..."
+1064	"And the silverware raced under the moon..."
+1065	"\"Are you sure you're ready for this?\" asked the hare of the tortoise..."
+1066	"The hare almost felt sorry for the panting tortoise far behind..."
+1067	"Confident of victory, the hare paused for a quick refreshing nap..."
+1068	"Waking hours later the hare dashed forward, but it was too late..."
+1069	"\"I think I'm in trouble,\" thought Gulliver as he swam for the shore..."
+1070	"\"Excuse me,\" said Gulliver to his tiny captors, \"but I've got this terrible itch.\""
+1071    "Gulliver stepped carefully between the perfect miniature homes..."
+1072    "\"What a peculiar place!\" exclaimed Gulliver as he waved goodbye..."
+1073    "Thumbelina was small but she always felt safe in her mother's hand..."
+1074    "\"You're mine, all mine!\" laughed the greedy frog..."
+1075    "\"We shall wed in a fortnight,\" said the fashionable mole..."
+1076    "With Thumbelina's gentle care the stricken swallow's wing soon began to mend..."
+1077    "Thumbelina's heart leaped with gladness as the swallow swept up into the blue..."
+1078    "The four musicians were determined to wow the town with their sound..."
+1079    "\"Maybe if we stand on top of each other they'll hear us better,\" the friends thought..."
+1080    "The shapeless silhouette and horrendous yowling terrified the hapless robbers..."
+1081    "The musicians relaxed in the warm satisfaction of a fine performance..."
+1082    "\"Hello everyone!\" chirped the newborn bird to his astonished brothers and sisters..."
+1083	"Rejected by the others, the sad little duckling tried to be brave..."
+1084	"\"Well whadda ya know! I'm a swan!\" he thought as he saw his reflection..."
+1085	"At the swan pond all agreed that the newest swan was a grand addition..."
+1086	"Little Miss Muffet quite hated to rough it..."
+1087	"Lunch was the best time of day..."
+1088	"She glanced off beside her and noticed a spider..."
+1089	"And scampered off without delay..."
+1090	"The starving travelers begged for a morsel to no avail..."
+1091	"The curious villagers watched as the wanderers dropped stone after stone into the bubbling stewpot..."
+1092	"\"It's good already, but a little extra flavor never hurts,\" said the wily travelers..."
+1093	"\"We never thought stone soup could be so delicious!\" agreed the townsfolk..."
+1094	"The lion gravely considered the mouse's high-pitched squeaks for mercy..."
+1095	"\"Your kindness will be repaid,\" said the mouse to the skeptical lion..."
+1096	"Soon after the lion found himself trapped tight in a man's net..."
+1097	"\"Good thing I didn't eat you!\" said the grateful lion..."
+1098	"It was a most peculiar rabbit indeed, and in such a hurry..."
+1099	"Further in and deeper dashed the stylish hare, leaving Alice with no choice but to follow..."
+1100	"Alice knew there were no such things as dodos, but she politely accepted his gift nonetheless..."
+1101    "The cat grinned at Alice with the widest, toothiest, grinniest grin she'd ever seen..."
+1102    "As Alice approached she realized the gardeners were busily painting all the flowers..."
+
+**Level-specific tutorial text
+1103    "Pair Problems!\n\nBeware the many paired letters in this chapter.  Remember that you can use these in the beginning, middle, or end of a word."
+1104	"On this level, all 'normal' letters that appear will be consonants.\n\nYou must use the fixed columns of vowels (plus wildcards) to form words and complete the puzzle."
+1105	"On this level, you must play each tile TWICE to complete the puzzle."
+1106	"Beware - on this level, Writer's Blocks are much more common, and can even be triggered by four letter words.\n\nPlay long words!"
+
+**General tutorial text
+1110	"Spell the word FROG by connecting F to R, then R to O, then O to G."
+1111	"Enter your word by clicking the SUBMIT button!"
+1112	"Good work!  Now spell the word CAKE by connecting letters!"
+1113	"Click SUBMIT to complete your word (or just double-click on the last letter, E)."
+1114	"Now find the word TALE.  Link the letters and submit it!"
+1115	"Press SUBMIT to complete your word."
+1116	"Good job!  Go ahead, make another word now.\n\nWords must be at least 3 letters long..."
+1117	"Tiles turn GREEN when you use them.  Turn all tiles green to finish the chapter!"
+1118	"Every time you play a word, you use up a turn.  Finish the chapter before you run out of turns!"
+1119	"Keep an eye on the timer.  Finish the chapter before time runs out!"
+1120	"Watch out, this is a Writer's Block!  Play the word SHOE underneath it to make it drop off the board."
+1121	"Writer's Blocks can appear when you make 3 letter words.  Make longer words to avoid them!"
+1122	"Longer words give you bonuses.\n\nFind a 5 letter word (such as XPLACEHOLDERX) for a special reward."  **Leave the word XPLACEHOLDERX untranslated as it is - it will be replaced with a list of eligible 5-letter words on the puzzle
+1123	"This is a WILDCARD!\n\nYou earned it by making a 5+ letter word.  It can be used as any letter in a word."
+1124	"If you can't find a good word, press SCRAMBLE to rearrange the letters."
+1125	"Scrambling is handy, but be careful, it uses up one of your turns and adds a Writer's Block!"
+1126	"Scrambling is handy, but be careful, it uses up time and adds a Writer's Block!"
+1127	""
+1128	"Great word!\n\nWhen you make a 7+ letter word, you get a special WILDCARD that you can keep re-using."
+1129	"This is a COPYCAT!  You earned it by playing a word with the same letter appearing twice in a row.  COPYCATs always change to the last letter of the word you just played."
+1130	"This is a CYCLER!  You earned it by playing a word where each letter comes alphabetically after the one before it (like BELT).   It starts as an 'A', then, if not played, becomes a 'B', 'C' and so on."
+1131	"Because you've already got 2 permanent wildcards in play, you can't earn another - sorry!"
+1132	"Scrambling is handy, but be careful, it uses up one of your turns."
+1133	"Scrambling is handy, but be careful, it uses up time."
+1134	"From this chapter on, using Scramble adds a Writer's Block to the puzzle."
+1135	"Wow, you're doing a GREAT job on this level.\n\nHowever, you've reached the limit of extra turns (or time) you can earn on a single level.  You can earn more next level..."
+1136	"This is a WILDCARD!  Sometimes you get them at the start of a level, but you can also earn one by playing a 5+ letter word."
+1137	"This is a special WILDCARD that never disappears!  Sometimes you get them at the start of a level, but you can also earn one by playing a 7+ letter word"
+1138	"This is a COPYCAT!  Sometimes you get them at the start of a level, but you can also earn one by playing a word with the same letter appearing twice in a row.  COPYCATs always change to the last letter of the word you just played."
+1139	"This is a CYCLER!  Sometimes you get them at the start of a level, but you can also earn one by playing a word where each letter comes alphabetically after the one before it (like BELT).   It starts as an 'A', then, if not played, becomes a 'B', 'C' and so on."
+1140	"Beware of LOCKS!\n\nYou can clear a lock by making a word adjacent to it."
+1141	"Four of the tiles on this level are reversible.\n\nPlay them once and they turn green.\n\nPlay them again and they're back to yellow!"
+1142	"The 4 colored letters on this level are permanent - they do not move or disappear."
+
+** Miscellaneous game text
+1178    " or "  **usage is in list of elible 5 letter words on the board - i.e. PAPER, HEART or CANDY  (used in conjunction with string 1122)
+1179	"Bonnie's Bookstore Deluxe"
+1180    "Bonnie's Bookstore - Unhandled Exit"
+1181    "Last log statements:"
+1182    "Bonnie's Bookstore already running"
+1183	"Bonnie's Bookstore is already running on this computer.\n\nPlease close this dialog and click on the running version of Bonnie's Bookstore on the Windows task bar."    
+1184    "Frame Rate: " 
+1185	"Screenshot captured to "    
+1186    "Turns"  **i.e. How many turns are left...
+1187    "Time"   **i.e. How much time is left...
+1188    "Game Over..."
+1189    "Sorry, you've used up all your turns for this level."
+1190    "Sorry, time's up!!!"
+1191    "Final Score"
+1192	"Congratulations, you've made the high score list!"
+1193	"OK"
+
+**Stuff that appears on the high score screen
+1194	"Classic"  **Corresponds to string 1028
+1195	"Action"   **Corresponds to string 1030
+1196	"Player"
+1197	"Best Word"
+1198	"Score"
+1199	"Summary for "
+1200	"Chapters Completed:"
+1201	"Average Word Length:"
+1202	"Longest Word:"
+1203	"Longest 5+ Letter Word Streak:"
+1204	"Click to Exit"
+1205	"High Scores"
+
+**Stuff that appears on the credits screen
+1220	"Bonnie's Bookstore Deluxe"
+1221	"Design, Programming" 
+1222	"Phil Steinmeyer"
+1223	"Art, Concept Art"
+1224	"Von Caberte"
+1225	"Music" 
+1226	"Barry Leitch" 
+1227	"Additional Concept Art"
+1228	"Ian Wilmoth"
+1229	"\"Love one another.  As I have loved you, so you must love one another.  By this all men will know that you are my disciples, if you love one another.\""
+1230    "John 13:34-35"
+1231    "FMOD Sound System, copyright (c) Firelight Technologies Pty, Ltd., 1994-2005\nSDL and SDL_Image copyright (c) Free Software Foundation, Inc, used under GNU LGPL, version 2\nSee the file 'COPYING' in this game's root directory for a full copy of the LGPL license"
+1232    "Bonnie's Bookstore, copyright (c) 2005-6, New Crayon Games, LLC.  All Rights Reserved"
+
+**More stuff that appears on the Main Menu (Bonnie sitting behind cash register with store sign behind her)
+1240	"Deluxe Version "
+1241    "WELCOME TO BONNIE'S BOOKSTORE"
+1242    "I'm sorry, but this beta version has expired.\n\nPlease contact the beta provider for a new version."
+1243    "Choose your difficulty:"
+1244	"On 'Hard' difficulty, you receive fewer turns to complete each level, but you receive double points.  On 'Genius', things are even harder, but point values are quadrupled."
+1245	"On 'Hard' difficulty, you less time to complete each level, but you receive double points.  On 'Genius', things are even harder, but point values are quadrupled."
+1246	"Normal"
+1247	"Hard"
+1248	"Genius"
+1249	"Cancel"
+1250	"Game in progress:"
+1251	"Chapter: "
+1252	"Would you like to resume this game or start a new game?"
+1253	"If you start a new game, the current game will be deleted.  You can avoid this be pressing 'Cancel' then use 'Change Player' to start a game as a new player..."
+1254	"Bonnie"
+1255	"Thanks, but you've already registered!"
+1256	"OK"
+1257	"Resume"	**RESUME the old game, start a NEW one, or CANCEL
+1258	"New"
+1259	"Cancel"
+
+** stuff that appears in the 'new player profile' dialog
+1270	"A profile with that name already exists.\n\nPlease enter a different name."
+1271	"New Player"
+1272	"Enter your name to create a new player profile:"
+1273	"Accept"
+1274	"Cancel"
+
+** stuff that appears in the 'Player Profile List' dialog
+1290	"All information and saved games for player profile '%1' will be erased.\n\nAre you sure you want to delete this profile?"
+1291	"Yes"
+1292	"No"
+1293	"Select A Player"
+1294	"New"
+1295	"Delete"
+1296	"Accept"
+1297	"Cancel"
+
+**Stuff that appears in the 'Options' dialog
+1300	"GAME OPTIONS"
+1301	"Sound Volume" 
+1302	"Music Volume"
+1303	"Full Screen"
+1304	"Main Menu"
+1305	"Return to the main game menu.  Your current game progress will be saved."
+1306	"How To Play"
+1307	"View instructions on how to play the game."
+1308	"Credits"
+1309	"View the game's credits."
+1310	"Back To Game" 
+1311	"Done"
+1312	"Resume your game."
+1313	"Exit this window."
+
+**Stuff that appears in the main game window (i.e. the principal game screen) 
+1320	"Submit"
+1321	"Scramble"
+1322	"Chapter"
+1323	"Score:   "
+1324	"Turns: "
+
+**Stuff that appears on the 'Chapter Complete' dialog thing
+1325	"Click to Continue"
+1326	"Score:"
+1327	"Turns Remaining:"
+1328	"Time Remaining:"
+1329	"Best Word:"
+1330	"None"
+1331	"Books Remaining!"
+1332    "Level:"
+1333    "%1 of %2"  ** (as in 'Level:  3 of 50')
+
+**More stuff that appears in the main game window (i.e. the principal game screen) 
+1340	"That tile is locked.\n\nTo unlock it, play a word through an adjacent, unlocked tile."	
+1341	"That tile is a \"Writer's Block\".\n\nYou can't play any words through it.  However, if you play letters underneath the Writer's Block, it will fall down as letters disappear.\n\nWhen it reaches the bottom row, the Writer's Block will fall out of the puzzle and you'll be rid of it!"
+1342	"You cannot scramble any more and you only have 1 turn left.\n\nWould you like to resign this game?"
+1343	"Yes"
+1344	"No"
+1345	"Continue"
+1346	"Scramble"	
+1347	"Resign"
+
+** Stuff that appears on the 'Letters from your publisher' page
+1401	"Congratulations - you've just published your first book!\n\n'The Frog Prince' is getting great reviews, and we're eager to publish your next effort, too..."
+1402	"We're very excited about your new book.\n\nAfter the success of your first title, we feared a sophomore slump.  But I think 'The Prince and the Pauper' is even better than 'The Frog Prince' !"
+1403	"Wow - you've knocked out three great books in short order.\n\nThe Critics Guild has labeled you as this year's \"Most Promising New Author\".\n\nKeep up the good work!"
+1404	"Another great book delivered on schedule!\n\nSo many of our authors struggle with writer's block - how are you able to beat it?"
+1405	"I loved Gulliver's Travels and I'm excited to hear you're doing Thumbelina next.  Go ahead and make Thumbelina a bit longer and more complex than your previous books."
+1406	"Your books are so popular, we're struggling to keep them in stock.\n\nI'm pleased to tell you that we've just ordered a large reprint of the entire series."
+1407	"Congratulations on your 7th book.  Your series is our most popular line of children's books ever.\n\nHow about doing 'The Ugly Duckling' next?"
+1408	"Congratulations on another great work!\n\nYour grandfather would be proud of what you've accomplished, and that his work is bringing joy to so many people."
+1409	"My 7-year old nephew has asked for your autograph.\n\nCan you sign and return this copy for me, please?"
+1410	"I'm pleased to tell you that you've just won the Rutledge award for Best Children's Book of the Year.\n\nGreat job!"
+1411	"Congratulations on another great book!\n\nI heard that you're planning to take a break after the next book - you'll need it, as 'Alice In Wonderland' will be the hardest story yet."
+1412	"Wow, 'Alice In Wonderland' is your masterpiece!\n\nThanks for all your wonderful books.  Now go ahead and take that break you've been talking about - you've earned it!"
+1413    "Dear Bonnie:\n\n"
+1414    "Sincerely,"
+
+
+** The following are default words for the high score table - they can really be anything, but 1152 to 1156 should be in roughly descending size (i.e. word length), and the same for 1157 to 1161
+1451    "Tales"
+1452	"Elephant"
+1453	"Tiger"   
+1454	"Bear"    
+1455	"Lion"    
+1456	"Mouse"   
+1457	"Dolphin" 
+1458	"Salmon"  
+1459	"Turtle"  
+1460	"Whale"   
+1461	"Squid"   
+
+** The following are default names for the high score table
+1462	"Phil"  
+1463	"Leslie"
+1464	"Katie" 
+1465	"Danny" 
+1466	"Grace" 
+1467	"Von"   
+1468	"Bill"  
+1469	"Emily" 
+1470	"Zelda" 
+1471	"Zoey"  
+
+
+** The following are for the Register Game window (disabled in current build)
+1500    "Thank you for purchasing Bonnie's Bookstore!\n\nThe full version has now been unlocked - there is no further time limitation."
+1501    "I'm sorry, but that is NOT a valid user name and key combination.\n\nPlease make sure you enter the name and key EXACTLY as they appear in your confirmation e-mail."
+1502    "Buy Bonnie's Bookstore"
+1503    "I'm sorry, but your free trial has expired (any in-progress games have been saved).\n\nPlease purchase Bonnie's Bookstore and enter the registration information to play further."
+1504    "To buy Bonnie's Bookstore, click on the 'Buy It Now Online' link.  Then enter the registration code you receive in the space below.\n\nThis will allow you to continue playing beyond the game's free trial period."
+1505    "[Buy It Now Online]"
+1506    "Registration Name"
+1507    "Accept"
+1508    "Cancel"
+1509    "License Code"
+
+** Other assorted text
+1550    "LOCKED"  ** appears superimposed over levels that cannot yet be played in the 'Select Level' dialog
+1551    "Buy It Now!"
+1552    "Buy Bonnie's Bookstore to fully unlock the game."
+1553    "High Scores"
+1554    "View the high scores list."
+
+
+** Leave the following UNTRANSLATED!!!  (EVERYTHING in the 1700s must remain in english)
+1700    "Ogg decoder within game used under the following terms:"
+1701    ""
+1702    "Copyright (c) 2002, Xiph.org Foundation"
+1703    ""
+1704    "Redistribution and use in source and binary forms, with or without"
+1705    "modification, are permitted provided that the following conditions"
+1706    "are met:"
+1707    ""
+1708    "- Redistributions of source code must retain the above copyright"
+1709    "notice, this list of conditions and the following disclaimer."
+1710    ""
+1711    "- Redistributions in binary form must reproduce the above copyright"
+1712    "notice, this list of conditions and the following disclaimer in the"
+1713    "documentation and/or other materials provided with the distribution."
+1714    ""
+1715    "- Neither the name of the Xiph.org Foundation nor the names of its"
+1716    "contributors may be used to endorse or promote products derived from"
+1717    "this software without specific prior written permission."
+1718    ""
+1719    "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+1720    "``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT"
+1721    "LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR"
+1722    "A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION"
+1723    "OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,"
+1724    "SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT"
+1725    "LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,"
+1726    "DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY"
+1727    "THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT"
+1728    "(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE"
+1729    "OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+

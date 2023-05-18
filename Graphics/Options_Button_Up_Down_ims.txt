@@ -1,0 +1,30 @@
+//Image Set file for Option_Buttons
+
+//up
+xywh    36     0     36   54
+xywh    36    54     36   54
+xywh    36   108     36   54
+
+//down
+xywh     0     0     36   54
+xywh     0    54     36   54
+xywh     0   108     36   54
+
+
+
+
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+ 

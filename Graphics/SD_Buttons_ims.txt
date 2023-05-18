@@ -1,0 +1,18 @@
+//Image Set file for standard dialog buttons
+
+xywh     0     0    140   80  
+xywh     0    80    140   80  
+xywh     0   160    140   80  
+
+xywh   140     0    140   80  
+xywh   140    80    140   80  
+xywh   140   160    140   80  
+
+xywh   280     0    140   80  
+xywh   280    80    140   80  
+xywh   280   160    140   80  
+
+xywh   420     0    140   80  
+xywh   420    80    140   80  
+xywh   420   160    140   80  
+

@@ -1,0 +1,19 @@
+//Image Set file for timer
+
+xywh    0     0    48   48  
+xywh   48     0    48   48  
+xywh   96     0    48   48  
+xywh  144     0    48   48  
+xywh  192     0    48   48  
+xywh  240     0    48   48  
+xywh  288     0    48   48  
+xywh  336     0    48   48  
+xywh  384     0    48   48  
+xywh  432     0    48   48  
+xywh  480     0    48   48  
+xywh  528     0    48   48  
+
+
+
+
+ 

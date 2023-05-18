@@ -1,0 +1,9 @@
+//Image Set file for timer
+
+xywh    0     0    276   16  
+xywh    0    18    276   28  
+
+
+
+
+ 

@@ -1,0 +1,16 @@
+//Image Set file for font 'Arrows'
+
+xywh     0     0     50   34
+xywh     0    36     50   34
+xywh     0    72     50   34
+xywh    54     0     50   34
+xywh    54    36     50   34
+xywh    54    72     50   34
+
+
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+xywh     0     0      1    1  // dummy  
+ 

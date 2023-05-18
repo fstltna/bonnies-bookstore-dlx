@@ -1,0 +1,11 @@
+<Properties>
+
+<String id="ProdName">BonniesBookstore</String>
+<String id="DisplayName">Bonnie's Bookstore Deluxe</String>
+<String id="Offering">10179</String>
+<String id="RegistryKey">PopCap\BonniesBookstore</String>
+
+<Integer id="Height">480</Integer>
+<Integer id="Width">640</Integer>
+
+</Properties>
